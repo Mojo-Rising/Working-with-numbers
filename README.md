@@ -12,15 +12,15 @@
 
 Open a new file in your IDE
 
-* Create an svg element
-* Make sure to add the xmlns="http://www.w3.org/2000/svg" tag
-* Create a viewBox of 1000x1000 in that svg element at x 0, y 0
-* Draw a grid of 10x10 lines
-* Save the svg element as an svg file and call it grid.svg
-* Create a html file with an svg element in it and use your grid.svg as background for it
-* Using lines, draw a cube and align it with the grid
+* Using vanilla javascript (no libraries allowed), create an array of 500 numbers. The first half must be a random number between 10 and 300. The second half has to be a random number between 500 and 700.
+* Determine the largest number in the array. Use only loops, variables and if statements, no ready made methods allowed.
+* Using javascript, create a paragraph element inside your HTML.
+* Set the contents of the paragraph element to be
+`From the array of ${amountOfnumbers} numbers, the number ${largestNumber} is the largest. This number is at index ${indexLargestNumber} in the array.`
 
-Tip: Remeber that the width of the line takes up coordinate space too.
+Tip: Be mindful that you use the 'tick' (the character under the escape key for windows or next to the z key for mac) as apostrophes, the so called template literal. This way you can use the variables amountOfNumbers, largestNumber and indexLargestNumber cleanly in one line of text.
+
+
 
 ## Submitting your work
 Create a new branch called **gh-pages** and upload your local work into this branch. Submit a new **pull request** and make sure to put the (working) **GitHub Pages URL** in the comment section. 
