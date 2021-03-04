@@ -1,4 +1,4 @@
-# Assignment: Lined cube
+# Assignment: Working with numbers
 
 *PLEASE READ THIS **ENTIRE** DOCUMENT FIRST*
 
